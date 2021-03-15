@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex4</title>
+</head>
+<body>
+<h2>Bài 4: Nhập 3 số nguyên và tìm giá trị lớn nhất của ba số nguyên đó</h2>
+<p id="display"></p>
+<script>
+    let a=+prompt("insert the first number:");
+    let b=+prompt("insert the second number:");
+    let c=+prompt("insert the third number:");
+    max=a; max =c; max =b;
+    if(a>b&&a>c){
+        document.getElementById("display").innerText=("max is the first number"+ a);
+    } else if(b>c){
+        document.getElementById("display").innerText=("max is the second number"+ b);
+    } else {
+        document.getElementById("display").innerText=("max is the third number"+ c);
+    }
+</script>
+</body>
+</html>

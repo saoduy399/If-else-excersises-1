@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex2</title>
+</head>
+<body>
+<h1>Ex2: Nhập tuổi và in ra kết quả nếu tuổi học sinh đó không đủ điều kiện vào học lớp 10.</h1>
+<h2>Do you old enough to go to the highschool?</h2>
+<p id="display"></p>
+<script>
+    let a=+prompt("insert your age:");
+    if(a>=15){
+        document.getElementById("display").innerText="Yes, you are!!!";
+    } else {
+        document.getElementById("display").innerText="No, you don't. You have yo wait until you are 15 years old."
+    }
+</script>
+</body>
+</html>

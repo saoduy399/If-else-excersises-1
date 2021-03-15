@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex5</title>
+</head>
+<body>
+<h2>Bài 5: Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ</h2>
+<p id="display"></p>
+<script>
+    let a=+prompt("insert the diem thi giua ki: ");
+    let b=+prompt("insert the diem thi cuoi ki: ");
+    total=(a+b)/2;
+    if(total>=8){
+        document.getElementById("display").innerText="<strong>Congratulation, You are rank A!!!</strong>";
+    } else if(total>=7){
+        document.getElementById("display").innerText="You are rank B!";
+    } else if(total>=3){
+        document.getElementById("display").innerText="You are rank C!";
+    } else {
+        document.getElementById("display").innerText="Good luck next time :))";
+    }
+</script>
+</body>
+</html>
